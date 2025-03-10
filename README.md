@@ -16,20 +16,21 @@ This repository contains a Jupyter Notebook that conducts an in-depth analysis o
 
 ## Dataset
 The analysis is based on the "Marriage Trends in India: Love vs. Arranged" dataset from Kaggle. Key features include:
+- `ID`: Unique identifier
 - `Marriage_Type`: Love or Arranged
 - `Year_of_Marriage`: Derived from `Years_Since_Marriage`
 - `Age_at_Marriage`: Age at the time of marriage
-- `Education_Level`: Educational attainment
-- `Parental_Approval`: Level of parental consent
+- `Education_Level`: Educational attainment (School / Graduate / Postgraduate / PhD)
+- `Parental_Approval`: Level of parental consent (Yes / No / Partial)
 - `Urban_Rural`: Urban or rural residence
-- `Religion`: Religious affiliation
-- `Marital_Satisfaction`: Satisfaction rating
-- `Divorce_Status`: Divorce outcome
-- `Inter-Caste` & `Inter-Religion`: Indicators of mixed marriages
-- `Spouse_Working`: Employment status of spouse
+- `Religion`: Religious affiliation (Hindu / Muslim / Christian / Sikh / Others)
+- `Marital_Satisfaction`: Satisfaction rating (Low / Medium / High)
+- `Divorce_Status`: Divorce outcome (Yes / No)
+- `Inter-Caste` & `Inter-Religion`: Indicators of mixed marriages (Yes / No)
+- `Spouse_Working`: Employment status of spouse (Yes / No)
 - `Children_Count`: Number of children
-- `Dowry_Exchanged`: Presence of dowry
-- `Income_Level`: Income category
+- `Dowry_Exchanged`: Presence of dowry (Yes / No / Not Disclosed)
+- `Income_Level`: Income category (Low / Middle / High)
 
 **Note**: The dataset must be downloaded from the Kaggle link and placed in the appropriate directory (e.g., `/kaggle/input/`) for the notebook to run locally or in a Kaggle environment.
 
@@ -98,7 +99,7 @@ Please ensure code follows PEP 8 guidelines and includes comments for clarity.
 
 
 ## Acknowledgments
-- Dataset provided by [ak0212](https://www.kaggle.com/ak0212) via Kaggle.
+- Dataset provided by [AKSHAY](https://www.kaggle.com/ak0212) via Kaggle.
 - Built with support from open-source libraries: NumPy, Pandas, Seaborn, and Matplotlib.
 
 ## Contact
